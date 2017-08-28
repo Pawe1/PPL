@@ -1,0 +1,44 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  Caption = 'Monitor Wait and Pulse'
+  ClientHeight = 297
+  ClientWidth = 490
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Position.X = 24.000000000000000000
+    Position.Y = 56.000000000000000000
+    Size.Width = 369.000000000000000000
+    Size.Height = 225.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 365.000000000000000000
+    Viewport.Height = 221.000000000000000000
+  end
+  object ButtonStartWait: TButton
+    Position.X = 24.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Start Wait'
+    OnClick = ButtonStartWaitClick
+  end
+  object ButtonStartPulse: TButton
+    Position.X = 152.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 105.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Start Pulse'
+    OnClick = ButtonStartPulseClick
+  end
+end

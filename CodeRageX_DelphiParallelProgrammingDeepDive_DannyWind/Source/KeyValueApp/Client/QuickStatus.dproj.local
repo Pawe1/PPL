@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/04 21:22:14.000.006,=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>2015/10/04 21:22:46.000.497,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit5.pas=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\UnitFormMain.pas</Transaction>
+    <Transaction>2015/10/04 21:22:46.000.497,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit5.fmx=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\UnitFormMain.fmx</Transaction>
+    <Transaction>2015/10/04 21:23:30.000.310,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Project3.dproj=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\QuickSurvey.dproj</Transaction>
+    <Transaction>2015/10/04 21:48:09.000.573,=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2015/10/04 21:48:09.000.777,=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2015/10/07 16:46:30.000.828,=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\Unit1.pas</Transaction>
+    <Transaction>2015/10/07 16:46:42.000.660,Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\Unit1.dfm=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\UnitDataMain.dfm</Transaction>
+    <Transaction>2015/10/07 16:46:42.000.660,Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\Unit1.pas=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\UnitDataMain.pas</Transaction>
+    <Transaction>2015/10/10 10:31:29.000.785,Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\QuickStatus.dproj=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\QuickSurvey.dproj</Transaction>
+    <Transaction>2015/10/10 15:04:09.000.821,=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\UnitGlobalStatus.pas</Transaction>
+    <Transaction>2015/10/10 15:05:30.000.076,Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Client\UnitGlobalStatus.pas=</Transaction>
+    <Transaction>2015/10/10 15:05:41.000.047,=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Shared\UnitGlobalStatus.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<PMacMini iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

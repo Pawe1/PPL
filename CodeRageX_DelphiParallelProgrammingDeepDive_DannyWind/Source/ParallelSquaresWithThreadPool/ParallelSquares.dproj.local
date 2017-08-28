@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2014/09/15 11:25:20.000.618,=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/10 09:04:47.000.964,=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/10 09:10:36.000.394,Z:\Shared\Training\Workshops\Coderage9_CreatingResponsiveApps\Source\ParallelSquares\UnitFormMain.pas=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2014/10/10 09:10:36.000.394,Z:\Shared\Training\Workshops\Coderage9_CreatingResponsiveApps\Source\ParallelSquares\UnitFormMain.fmx=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2014/10/10 09:10:45.000.506,Z:\Shared\Training\Workshops\Coderage9_CreatingResponsiveApps\Source\ParallelSquares\ParallelSquares.dproj=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="015d41d441200211"/>
+		<PMacMini iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

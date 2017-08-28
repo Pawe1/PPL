@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/06/14 11:38:55.000.635,=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/06/14 11:39:28.000.366,Z:\Shared\Source\ThreadedQueue\Completed\UnitFormMain.fmx=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit2.fmx</Transaction>
+    <Transaction>2015/06/14 11:39:28.000.366,Z:\Shared\Source\ThreadedQueue\Completed\UnitFormMain.pas=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2015/06/14 11:39:35.000.975,Z:\Shared\Source\ThreadedQueue\Completed\ThreadedQueue.dproj=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+		<PMacMini iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2015/10/04 20:37:12.000.585,=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\FormUnit1.pas</Transaction>
+    <Transaction>2015/10/04 20:37:12.000.811,=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2015/10/04 20:37:12.000.962,=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2015/10/04 20:37:13.000.112,=C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas</Transaction>
+    <Transaction>2015/10/04 20:37:56.000.182,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\FormUnit1.fmx=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\FormUnit1.fmx</Transaction>
+    <Transaction>2015/10/04 20:37:56.000.182,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\FormUnit1.pas=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\FormUnit1.pas</Transaction>
+    <Transaction>2015/10/04 20:37:59.000.911,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.dfm=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\ServerContainerUnit1.dfm</Transaction>
+    <Transaction>2015/10/04 20:37:59.000.911,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\ServerContainerUnit1.pas=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\ServerContainerUnit1.pas</Transaction>
+    <Transaction>2015/10/04 20:38:01.000.729,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.pas=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\ServerMethodsUnit1.pas</Transaction>
+    <Transaction>2015/10/04 20:38:01.000.729,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\ServerMethodsUnit1.dfm=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\ServerMethodsUnit1.dfm</Transaction>
+    <Transaction>2015/10/04 20:38:03.000.523,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.dfm=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\WebModuleUnit1.dfm</Transaction>
+    <Transaction>2015/10/04 20:38:03.000.523,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\WebModuleUnit1.pas=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\WebModuleUnit1.pas</Transaction>
+    <Transaction>2015/10/04 20:38:11.000.689,C:\Users\Delphi\Documents\Embarcadero\Studio\Projects\Project3.dproj=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\KeyValueServer.dproj</Transaction>
+    <Transaction>2015/10/08 11:05:11.000.943,=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\Unit1.pas</Transaction>
+    <Transaction>2015/10/08 11:05:34.000.725,Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\UnitDataInMemory.pas=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\Unit1.pas</Transaction>
+    <Transaction>2015/10/08 11:11:57.000.680,Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\UnitClassKeyStore.pas=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\UnitDataInMemory.pas</Transaction>
+    <Transaction>2015/10/08 11:15:05.000.618,Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\UnitClassKeyStore.pas=</Transaction>
+    <Transaction>2015/10/08 15:00:12.000.839,=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\Unit1.pas</Transaction>
+    <Transaction>2015/10/08 15:00:39.000.137,Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\Unit1.pas=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\UnitGlobalStatus.pas</Transaction>
+    <Transaction>2015/10/10 15:05:15.000.030,Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Shared\UnitGlobalStatus.pas=Z:\Shared\Training\Workshops\CoderageX_ParallelV2\Source\KeyValueApp\Server\UnitGlobalStatus.pas</Transaction>
+  </Transactions>
+</BorlandProject>

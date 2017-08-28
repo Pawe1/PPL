@@ -1,0 +1,229 @@
+object FormMain: TFormMain
+  Left = 0
+  Top = 0
+  Caption = 'Quick Status'
+  ClientHeight = 436
+  ClientWidth = 417
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 417.000000000000000000
+    Size.Height = 40.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object LabelTitle: TLabel
+      Align = Center
+      AutoSize = True
+      Size.Width = 70.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      TextSettings.WordWrap = False
+      Text = 'Quick Status'
+    end
+  end
+  object StatusBarTasks: TStatusBar
+    Hint = 'GetTaskStatus'
+    Position.Y = 414.000000000000000000
+    ShowSizeGrip = True
+    Size.Width = 417.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    ParentShowHint = False
+    ShowHint = True
+    object LabelHint: TLabel
+      Align = Center
+      AutoSize = True
+      Size.Width = 54.000000000000000000
+      Size.Height = 16.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Center
+      TextSettings.WordWrap = False
+      Text = 'LabelHint'
+    end
+  end
+  object Layout2: TLayout
+    Align = Top
+    Padding.Left = 4.000000000000000000
+    Padding.Top = 4.000000000000000000
+    Padding.Right = 4.000000000000000000
+    Padding.Bottom = 4.000000000000000000
+    Position.Y = 40.000000000000000000
+    Size.Width = 417.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    object LabelKetchup: TLabel
+      Align = Left
+      AutoSize = True
+      Position.X = 4.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 47.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.WordWrap = False
+      Text = 'Ketchup'
+    end
+    object RadioButtonKetchupNo: TRadioButton
+      Align = Right
+      GroupName = 'Ketchup'
+      Position.X = 293.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'NO'
+    end
+    object RadioButtonKetchupYes: TRadioButton
+      Align = Right
+      GroupName = 'Ketchup'
+      Position.X = 173.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'YES'
+    end
+  end
+  object Layout1: TLayout
+    Align = Top
+    Padding.Left = 4.000000000000000000
+    Padding.Top = 4.000000000000000000
+    Padding.Right = 4.000000000000000000
+    Padding.Bottom = 4.000000000000000000
+    Position.Y = 190.000000000000000000
+    Size.Width = 417.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object LabelMustard: TLabel
+      Align = Left
+      AutoSize = True
+      Position.X = 4.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.WordWrap = False
+      Text = 'Mustard'
+    end
+    object RadioButtonMustardNo: TRadioButton
+      Align = Right
+      GroupName = 'Mustard'
+      Position.X = 293.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'NO'
+    end
+    object RadioButtonMustardYes: TRadioButton
+      Align = Right
+      GroupName = 'Mustard'
+      Position.X = 173.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'YES'
+    end
+  end
+  object Layout3: TLayout
+    Align = Top
+    Padding.Left = 4.000000000000000000
+    Padding.Top = 4.000000000000000000
+    Padding.Right = 4.000000000000000000
+    Padding.Bottom = 4.000000000000000000
+    Position.Y = 140.000000000000000000
+    Size.Width = 417.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object LabelPepper: TLabel
+      Align = Left
+      AutoSize = True
+      Position.X = 4.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 42.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.WordWrap = False
+      Text = 'Pepper'
+    end
+    object RadioButtonPepperNo: TRadioButton
+      Align = Right
+      GroupName = 'Pepper'
+      Position.X = 293.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'NO'
+    end
+    object RadioButtonPepperYes: TRadioButton
+      Align = Right
+      GroupName = 'Pepper'
+      Position.X = 173.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'YES'
+    end
+  end
+  object Layout4: TLayout
+    Align = Top
+    Padding.Left = 4.000000000000000000
+    Padding.Top = 4.000000000000000000
+    Padding.Right = 4.000000000000000000
+    Padding.Bottom = 4.000000000000000000
+    Position.Y = 90.000000000000000000
+    Size.Width = 417.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object LabelSalt: TLabel
+      Align = Left
+      AutoSize = True
+      Position.X = 4.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 24.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.WordWrap = False
+      Text = 'Salt'
+    end
+    object RadioButtonSaltNo: TRadioButton
+      Align = Right
+      GroupName = 'Salt'
+      Position.X = 293.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      Text = 'NO'
+    end
+    object RadioButtonSaltYes: TRadioButton
+      Align = Right
+      GroupName = 'Salt'
+      Position.X = 173.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 120.000000000000000000
+      Size.Height = 42.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Text = 'YES'
+    end
+  end
+end

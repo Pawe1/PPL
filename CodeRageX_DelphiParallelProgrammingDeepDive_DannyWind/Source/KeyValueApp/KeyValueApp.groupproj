@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{B1C879FE-7783-470C-B66A-3EFC7223A49A}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Server\KeyValueServer.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Client\QuickStatus.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="KeyValueServer">
+        <MSBuild Projects="Server\KeyValueServer.dproj"/>
+    </Target>
+    <Target Name="KeyValueServer:Clean">
+        <MSBuild Projects="Server\KeyValueServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="KeyValueServer:Make">
+        <MSBuild Projects="Server\KeyValueServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="QuickStatus">
+        <MSBuild Projects="Client\QuickStatus.dproj"/>
+    </Target>
+    <Target Name="QuickStatus:Clean">
+        <MSBuild Projects="Client\QuickStatus.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="QuickStatus:Make">
+        <MSBuild Projects="Client\QuickStatus.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="KeyValueServer;QuickStatus"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="KeyValueServer:Clean;QuickStatus:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="KeyValueServer:Make;QuickStatus:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
