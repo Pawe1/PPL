@@ -1,0 +1,72 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{D4C09081-CD78-402A-992E-AEA8EF4BCF18}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="AsyncAwait.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Future.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ParallelFor.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Map.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="AsyncAwait">
+        <MSBuild Projects="AsyncAwait.dproj"/>
+    </Target>
+    <Target Name="AsyncAwait:Clean">
+        <MSBuild Projects="AsyncAwait.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AsyncAwait:Make">
+        <MSBuild Projects="AsyncAwait.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Future">
+        <MSBuild Projects="Future.dproj"/>
+    </Target>
+    <Target Name="Future:Clean">
+        <MSBuild Projects="Future.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Future:Make">
+        <MSBuild Projects="Future.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ParallelFor">
+        <MSBuild Projects="ParallelFor.dproj"/>
+    </Target>
+    <Target Name="ParallelFor:Clean">
+        <MSBuild Projects="ParallelFor.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ParallelFor:Make">
+        <MSBuild Projects="ParallelFor.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Map">
+        <MSBuild Projects="Map.dproj"/>
+    </Target>
+    <Target Name="Map:Clean">
+        <MSBuild Projects="Map.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Map:Make">
+        <MSBuild Projects="Map.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="AsyncAwait;Future;ParallelFor;Map"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="AsyncAwait:Clean;Future:Clean;ParallelFor:Clean;Map:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="AsyncAwait:Make;Future:Make;ParallelFor:Make;Map:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
